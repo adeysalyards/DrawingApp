@@ -14,6 +14,7 @@
 		A04EB3641CCBB4F700D3CCB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A04EB3621CCBB4F700D3CCB4 /* LaunchScreen.storyboard */; };
 		A04EB36F1CCBB4F700D3CCB4 /* DrawingTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04EB36E1CCBB4F700D3CCB4 /* DrawingTutorialTests.swift */; };
 		A04EB37A1CCBB4F700D3CCB4 /* DrawingTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04EB3791CCBB4F700D3CCB4 /* DrawingTutorialUITests.swift */; };
+		A04EB3881CCBBF9900D3CCB4 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04EB3871CCBBF9900D3CCB4 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A04EB3751CCBB4F700D3CCB4 /* DrawingTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawingTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A04EB3791CCBB4F700D3CCB4 /* DrawingTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingTutorialUITests.swift; sourceTree = "<group>"; };
 		A04EB37B1CCBB4F700D3CCB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A04EB3871CCBBF9900D3CCB4 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				A04EB3591CCBB4F600D3CCB4 /* AppDelegate.swift */,
 				A04EB35B1CCBB4F600D3CCB4 /* ViewController.swift */,
 				A04EB35D1CCBB4F700D3CCB4 /* Main.storyboard */,
+				A04EB3871CCBBF9900D3CCB4 /* Colors.swift */,
 				A04EB3601CCBB4F700D3CCB4 /* Assets.xcassets */,
 				A04EB3621CCBB4F700D3CCB4 /* LaunchScreen.storyboard */,
 				A04EB3651CCBB4F700D3CCB4 /* Info.plist */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A04EB35C1CCBB4F600D3CCB4 /* ViewController.swift in Sources */,
+				A04EB3881CCBBF9900D3CCB4 /* Colors.swift in Sources */,
 				A04EB35A1CCBB4F600D3CCB4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
