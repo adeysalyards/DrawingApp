@@ -21,28 +21,24 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <gestureRecognizers/>
                             </imageView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DAD-ce-SoN">
-                                <rect key="frame" x="20" y="517" width="48" height="36"/>
-                                <color key="backgroundColor" red="1" green="0.53260445590000005" blue="0.9044332504" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <gestureRecognizers/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QBu-is-12f">
+                                <rect key="frame" x="234" y="517" width="61" height="30"/>
+                                <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="15"/>
+                                <state key="normal" title="Clear">
+                                    <color key="titleColor" red="0.30947524889380529" green="0.30947524889380529" blue="0.30947524889380529" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="60l-51-vHU" appends="YES" id="ko1-Lm-sjq"/>
+                                    <action selector="didTapClearButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UfK-hg-9za"/>
                                 </connections>
-                            </view>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.96173149347305298" blue="0.89880257844924927" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
-                        <outlet property="colorView" destination="DAD-ce-SoN" id="C4W-Xb-d1X"/>
                         <outlet property="drawImageView" destination="jQO-zs-h8t" id="UTl-D2-HGH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="60l-51-vHU">
-                    <connections>
-                        <action selector="didTapScreen:" destination="BYZ-38-t0r" id="Jzg-No-zmQ"/>
-                    </connections>
-                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="234" y="366"/>
         </scene>
